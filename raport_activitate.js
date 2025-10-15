@@ -14,7 +14,7 @@
   // === Config ===
   const baseOrigin = window.location.origin;
   const basePath = "/wp-admin/edit.php";
-  const paramsBase = new URLSearchParams({ author: "63", post_type: "post" });
+  const paramsBase = new URLSearchParams({ author: "XX", post_type: "post" }); //schimba XX cu numarul autorului tau din WordPress
 
   const parseDate = (t) => {
     const m = (t || "").match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/);
@@ -153,3 +153,4 @@
   console.log(`Raport generat: ${filename}`);
   console.log(`Total articole: ${uniq.length}`);
 })();
+
