@@ -19,7 +19,7 @@ Parcurge toate paginile din lista de articole, extrage linkurile publice și cre
 2. Accesează pagina cu articolele autorului.
 3. Deschide consola browserului (`Ctrl + Shift + J` în Chrome).  
 4. Lipește codul complet din fișierul `raport_activitate.js`.
-5. !! IMPORTANT !! Schimbă XX din cod cu numărul autorului tău (poți găsi acest număr/ID în linkul de WordPress)
+5. **IMPORTANT:** Schimbă `XX` din cod cu numărul autorului tău (poți găsi acest ID în linkul WordPress).
 6. Apasă Enter și urmează instrucțiunile pentru lună și an.  
 7. La final se va descărca automat un fișier `.docx` cu raportul.
 
